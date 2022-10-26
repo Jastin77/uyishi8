@@ -1,0 +1,68 @@
+* {
+    box-sizing: border-box;
+}
+
+/* montserrat-500 - latin */
+@font-face {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    src: local(''),
+        url('../fonts/montserrat-v25-latin-500.woff2') format('woff2'),
+        /* Chrome 26+, Opera 23+, Firefox 39+ */
+        url('../fonts/montserrat-v25-latin-500.woff') format('woff');
+    /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
+.flag.rassia{
+    border: 1px solid grey;
+    width: 900px;
+    height: 600px;
+    
+    background: linear-gradient( white 33.333%, blue 33.333% 66.666%, red 66.666% 100%);
+}
+
+.div{
+    
+    
+}
+.flag.uzb{
+    border: 1px solid grey;
+    width: 900px;
+    height: 600px;
+    
+    background: linear-gradient( blue 32%, red 2% 34%, white 34% 66%, red 2% 68%, green 68% 100%);
+}
+
+.flag.drance{
+    border: 1px solid grey;
+    width: 900px;
+    height: 600px;
+    
+    background: linear-gradient( to right, blue 33.333%, white 33.333% 66.666%, red 66.666% 100%);
+}
+
+.flag.austrya{
+    border: 1px solid grey;
+    width: 900px;
+    height: 600px;
+    
+    background: linear-gradient( red 33.333%, white 33.333% 66.666%, red 66.666% 100%);
+}
+
+.flag.armaniya{
+    border: 1px solid grey;
+    width: 900px;
+    height: 600px;
+    
+    background: linear-gradient(to right, rgb(95, 4, 4) 33.333%, rgba(64, 12, 131, 0.254) 33.333% 66.666%, rgb(134, 104, 6) 66.666% 100%);
+}
+
+.flag.belguim{
+    border: 1px solid grey;
+    width: 900px;
+    height: 600px;
+    
+    background: linear-gradient(to right, red 33.333%, yellow 33.333% 66.666%, red 66.666% 100%);
+
+}
